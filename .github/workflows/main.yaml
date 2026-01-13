@@ -23,9 +23,7 @@ jobs:
 
 
     - name: Build the Spring Boot application
-      run:
-       mvn clean 
-       mvn -B package --file pom.xml
+      run: mvn -B package --file pom.xml
         
 
 
